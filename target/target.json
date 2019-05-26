@@ -1,0 +1,264 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Giving the Plan Details",
+        "description": "",
+        "id": "entering-the-plan-details-in-the-telecom-website;giving-the-plan-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8043926600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should open the browser",
+            "match": {
+              "location": "AddPlanDetails.user_should_open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2027284700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should go to the telecom website",
+            "match": {
+              "location": "AddPlanDetails.user_should_go_to_the_telecom_website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1580754700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should fill all the details as per the requirements",
+            "match": {
+              "location": "AddPlanDetails.user_should_fill_all_the_details_as_per_the_requirements(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1000",
+                  "2000",
+                  "3000",
+                  "4000",
+                  "133",
+                  "123",
+                  "124"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2302336700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should click on the submit buttons",
+            "match": {
+              "location": "AddPlanDetails.user_should_click_on_the_submit_buttons()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92102500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "It should show the congratulations page",
+            "match": {
+              "location": "AddPlanDetails.it_should_show_the_congratulations_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Entering the Plan Details in the telecom website",
+    "description": "  I want to use this template for my feature file",
+    "id": "entering-the-plan-details-in-the-telecom-website",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/PlanDeatilsList.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Giving the Plan Details",
+        "description": "",
+        "id": "entering-the-plan-details-in-the-telecom-website;giving-the-plan-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5808782600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should open the browser1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 28
+                }
+              ],
+              "location": "AddPlanDetails1.user_should_open_the_browser(Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2259710500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should go to the telecom website1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 37
+                }
+              ],
+              "location": "AddPlanDetails1.user_should_go_to_the_telecom_website(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1793739400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should fill all the details as per the requirements1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 56
+                }
+              ],
+              "location": "AddPlanDetails1.user_should_fill_all_the_details_as_per_the_requirements(Integer,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Monthly Rental",
+                  "300"
+                ]
+              },
+              {
+                "cells": [
+                  "Free Local Minutes",
+                  "500"
+                ]
+              },
+              {
+                "cells": [
+                  "Free International Minutes",
+                  "600"
+                ]
+              },
+              {
+                "cells": [
+                  "Free SMS Pack",
+                  "500"
+                ]
+              },
+              {
+                "cells": [
+                  "Local Per Minutes Charges",
+                  "230"
+                ]
+              },
+              {
+                "cells": [
+                  "International Per Minutes Charges",
+                  "130"
+                ]
+              },
+              {
+                "cells": [
+                  "SMS Per Charges",
+                  "150"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1709556000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User should click on the submit buttons1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 39
+                }
+              ],
+              "location": "AddPlanDetails1.user_should_click_on_the_submit_buttons(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54956600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "It should show the congratulations page1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 39
+                }
+              ],
+              "location": "AddPlanDetails1.it_should_show_the_congratulations_page(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Entering the Plan Details in the telecom website",
+    "description": "  I want to use this template for my feature file",
+    "id": "entering-the-plan-details-in-the-telecom-website",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/PlanDetailsMap.feature",
+    "tags": []
+  }
+]

@@ -1,7 +1,7 @@
 Feature: Entering the Plan Details in the telecom website
   I want to use this template for my feature file
 
- 
+ @sanity
   Scenario: Giving the Plan Details
     Given User should open the browser
     And User should go to the telecom website
